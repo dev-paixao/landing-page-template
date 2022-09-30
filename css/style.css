@@ -99,13 +99,18 @@ body{
     color: #d4d1d1;
     cursor: pointer;
     display: block;
-    height: 20px;
-    width: 50px;
+    font-size: 25px;
 }
 
 .span-account:hover{
     color: #ffffff;
     transition: all .2s ease-in-out;
+}
+
+.account-icon{
+    width: 24px;
+    cursor: pointer;
+    filter: invert(1);
 }
 
 /*Conteudo principal*/
@@ -114,8 +119,9 @@ body{
     display: flex; 
     width: 100%;
     height: 675px;
-    background-image: url(../img/POST.jpg);
-    background-size: cover;  
+    background-size: cover;
+    background-image: linear-gradient(to right, black 40%, transparent 58%), url(../img/POST.jpg);
+    background-position: right top;  
 }
 
 .conteudo-principal-escrito{
@@ -271,4 +277,64 @@ body{
 .gridwrapper > div{
     flex: 1 1 220px;
     margin: 3px;
+}
+
+
+/*Conteudo terciario*/
+
+.conteudo-terciario{
+    display: flex;
+    width: 100%;
+    height: 675px;
+    background-size: cover;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(../img/POST2.jpg);
+    background-position: left top;  
+    background-repeat: no-repeat;
+    min-width: 300px;
+    background-size: cover;
+    clear: both;
+    color: #fff;
+}
+
+.dv-safe-content{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30%;
+    position: relative;
+    z-index: 1;
+    min-height: 70vh;
+}
+
+.conteudo-escrito-terciario{
+    flex-direction: column;
+    align-items: flex-end;
+    width: 1712px;
+    height: 281px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    color: #ffffff;
+    padding-right: 0;
+    padding-left: 55%;
+    line-height: 1.3;
+    
+}
+
+.conteudo-escrito-terciario h1{
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #fff;
+    line-height: 1.2 !important;
+}
+
+.conteudo-escrito-terciario p{
+    margin-top: 24px;
+    text-align: left;
+    font-size: 21px;
+    line-height: 1.3;
 }
