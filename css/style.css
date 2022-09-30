@@ -10,7 +10,6 @@
 }
 
 body{
-
     width: 100%;
     background-color: #ffffff;
 }
@@ -25,17 +24,15 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 24px;
+    padding: 20px;
 }
 
 .cabecalho-imagem {
-    width: 100px;
-}
-
-
-.cabecalho-menusec{
-    margin-left: 1000px;
-   
+    background-position: left 0;
+    height: 40px;
+    position: relative;
+    top: 2px;
+    width: 112px;
 }
 
 .cabecalho-menu {
@@ -55,6 +52,37 @@ body{
 .cabecalho-menu a:hover{
     border-bottom: 2px solid #138ecc;
 }
+.cabecalho-menusec{
+    margin-left: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+   
+}
+
+.nav-btn{
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0 , 0.25);
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d4d1d1;
+    cursor:pointer;
+    padding: 14px 20px;
+    transition: all .2s ease-out;
+    background-color: #0f79af;
+    
+}
+.nav-btn:hover{
+    background-color: #0782c0;
+    border-bottom: none;
+}
 
 .cabecalho .pesquisa{
     width: 24px;
@@ -62,6 +90,23 @@ body{
     filter: invert(1);
 }
 
+.cabecalho .nav-locales-icon{
+    width: 24px;
+    cursor: pointer;
+    filter: invert(1);
+}
+.span-account{
+    color: #d4d1d1;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    width: 50px;
+}
+
+.span-account:hover{
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+}
 
 /*Conteudo principal*/
 
