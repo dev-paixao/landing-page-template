@@ -1,5 +1,5 @@
 # landing-page-template
-Landing Page usando apenas HTML e CSS 
+Clone da página inicial da Amazon Prime Video usando apenas HTML e CSS 
 
 ## [Demo](https://dev-paixao.github.io/prime-landingpage-template/)
 
